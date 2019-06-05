@@ -1,1 +1,199 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.border {
+  border: 4px dashed green;
+}
+footer {
+  border: 4px dashed green;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header nav {
+  display: flex;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 35px;
+  color: grey;
+  justify-content: center;
+}
+header nav a {
+  display: flex;
+  margin-right: 75px;
+  font-size: 14px;
+  color: grey;
+  text-decoration: none;
+  justify-content: center;
+}
+.top-content .image {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.top-content h1 {
+  display: block;
+  vertical-align: top;
+  font-size: 40px;
+  margin-top: 60px;
+  text-align: center;
+  padding: 0px 75px;
+  color: gold;
+}
+.top-content .short-info .bio {
+  display: block;
+  vertical-align: top;
+  font-size: 24px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 10px;
+  color: red;
+}
+.top-content .short-info .bio2 {
+  display: block;
+  vertical-align: top;
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.top-content button {
+  display: block;
+  background-color: pink;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 30px;
+  font-size: 15px;
+  border: 2px solid black;
+  text-align: center;
+}
